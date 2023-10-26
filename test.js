@@ -2,7 +2,7 @@ function sortTableAsc() {
     var table, rows, switching, i, x, y, shouldSwitch,columnno;
     columnno=document.getElementById("column").value;
     table = document.getElementById("booktable");
-    switching = true;
+    switching = false;
     while (switching) {
         switching = false;
         rows = table.rows;
